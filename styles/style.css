@@ -72,8 +72,6 @@ html
         justify-content: center;
         align-items: center;
         color: whitesmoke;
-        width: 1920px;
-        height: 1080px;
         overflow: hidden;
     }
 
@@ -140,9 +138,8 @@ html
         box-sizing: border-box;
         padding: 20px;
         margin-bottom: 50px;
-        width: 1920px;
-        height: 1080px;
         overflow: hidden;
+        height: 100vh;
     }
 
 #pic 
@@ -184,8 +181,6 @@ html
         align-items: center;
         padding: 20px;
         background-color: hsla(34, 87%, 76%, 0.51);
-        width: 1920px;
-        height: 1080px;
         overflow: hidden;
     }
 
@@ -220,8 +215,6 @@ html
         display: flex;
         flex-direction: column;
         padding: 20px;
-        width: 1920px;
-        height: 1080px;
         overflow: hidden;
     }
 
