@@ -52,7 +52,7 @@ html
         transition: all 0.5s ease;
     }
 
-.navbar ul li a:hover
+.navbar ul li a:hover 
     {
         color: whitesmoke;
         box-shadow: 0 0 30px orangered;
@@ -61,8 +61,8 @@ html
     } 
     
     
-/* Der Button im Vorstellungefdeld wird angepasst. Entsprechend der Nav-Leiste */    
-.main
+/* Der Button im Vorstellungefeld wird angepasst. Entsprechend der Nav-Leiste */    
+.main 
     {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.5rem;
@@ -71,7 +71,7 @@ html
         opacity: 0.9;
     }
 
-.main a
+.main a 
     {
         text-decoration: none;
         color: antiquewhite;
@@ -89,7 +89,7 @@ html
     }  
 
 
-    /* Home-section */
+/* Home-section */
 
 
 
@@ -111,7 +111,7 @@ html
         position: absolute;
         top: 0;
         right: 0;
-        background: url(/img/CachedImage_2560_1440_POS4.jpg) no-repeat center center/cover;
+        background: url(/img/bg.jpg) no-repeat center center/cover;
         height: 100vh;
         width: 100vw;
         z-index: -1;
@@ -130,7 +130,17 @@ html
         right: 10%;
         padding: 30px;
     }
+.main h2 
+    {        
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    }
 
+.main h3 
+    {        
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    }
 .headings 
     {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -171,37 +181,140 @@ html
 #about 
     {
         background-color: #4f4d4d;
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        padding: 20px;
-        margin-bottom: 50px;
-        overflow: hidden;
         height: 100vh;
+        width: 100vw;
         color: antiquewhite;
-        
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: (10%, 1fr, 15%, 1fr, 10%);
+        grid-template-rows: repeat(12, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+    }
 
+.intro p 
+    {
+        justify-items: center;
+        align-items: center;
+    }
+
+
+.intro .headings 
+    {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+
+ #pic img
+    {
+        justify-content: center;
+        align-content: center;
+        grid-column: 2 / 3;
+        grid-row: 4 / 7;
+    }
+
+.intro
+    {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        justify-content: center;
+        text-align: center;
+    }
+
+.pone
+    {
+        grid-column: 4 / 5;
+        grid-row: 4 / 5;
+        justify-content: center;
+        text-align: center;
+    }
+
+.ptwo
+    {
+        grid-column: 4 / 5;
+        grid-row: 4 / 5;
+        justify-content: center;
+        text-align: center;
+    }
+
+.pthree
+    {
+        grid-column: 4 / 5;
+        grid-row: 5 / 6;
+        justify-content: center;
+        text-align: center;
+    }
+
+.pfour
+    {
+        grid-column: 4 / 5;
+        grid-row: 6 / 7;
+        justify-content: center;
+        text-align: center;
+    }
+
+.pfive
+    {
+        grid-column: 4 / 5;
+        grid-row: 7 / 8;
+        justify-content: center;
+        text-align: center;
+    }
+
+.psix
+    {
+        grid-column: 4 / 5;
+        grid-row: 8 / 9;
+        justify-content: center;
+        text-align: center;
+    }
+
+.pseven
+    {
+        grid-column: 4 / 5;
+        grid-row: 9 / 10;
+        justify-content: center;
+        text-align: center;
+    }
+
+.peight
+    {
+        grid-column: 4 / 5;
+        grid-row: 10 / 11;
+        justify-content: center;
+        text-align: center;
+    }
+
+.ptwo
+    {
+        grid-column: 4 / 5;
+        grid-row: 11 / 12;
+        justify-content: center;
+        text-align: center;
     }
 
 #pic 
     {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
 #pic img 
     {
-        width: 250px;
-        height: 200px;
+        width: 350px;
+        height: 500px;
     }
 #intro 
     {
+        width: 50%;
         display: flex;
         flex-direction: column;
         text-align: justify;
         align-items: center;
+        justify-content: center;
         padding: 20px;
-
     }
 
 #intro h2 
@@ -209,6 +322,7 @@ html
         font-size: 2rem;
         margin-bottom: 20px;
     }
+
 
 
 
@@ -220,7 +334,7 @@ html
     {
         display: flex;
         flex-direction: column;
-        color: whitesmoke;
+        color: antiquewhite;
         align-items: center;
         padding: 20px;
         background-color: #4f4d4d;
@@ -239,15 +353,15 @@ html
 
 .gallery img 
     {
-        width: 360px;
-        height: 240px;
-        margin: 10px;
+        width: 400px;
+        height: 280px;
+        margin: 50px;
         border-radius: 25px;
     }
 
 .headings 
     {
-        color: whitesmoke;
+        color: antiquewhite;
     }
 
 
@@ -265,11 +379,13 @@ html
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-#services h1 {
-    font-size: 4rem;
-    text-align: center;
-    margin-bottom: 50px;
-}
+#services h1 
+    {
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
 .row 
     {
         display: flex;
@@ -289,17 +405,21 @@ html
         text-align: justify;
         padding: 20px;
         border-radius: 15px;
-        background: linear-gradient(to top, rgb(255, 45, 45)50%, #4f4d4d 50%);
+        background: linear-gradient(to top, rgba(247, 84, 24, 0.81)50%, #4f4d4d 50%);
         background-size: 100% 200%;
         transition: all 0.8s;
+        overflow: -moz-scrollbars-vertical; 
+        overflow-y: scroll;
     }
 
 .box:hover 
     {
         background-position: left bottom;
-        color: whitesmoke;
+        color: antiquewhite;
         border: none;
-        box-shadow: 0 0 20px rgb(255, 45, 45);
+        box-shadow: 0 0 20px rgba(247, 84, 24, 0.81);;
+        overflow: -moz-scrollbars-vertical; 
+        overflow-y: scroll;
     }
 
 .box img 
