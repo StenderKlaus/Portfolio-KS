@@ -492,12 +492,11 @@ html    {
         font-weight: bold;
     }
 
-.schluss p
+.schluss
     {
         width: 50%;
-        display: flex;
-        justify-content: center;
         text-align: center;
         color: antiquewhite;
         font-size: 2rem;
+        margin-inline: auto;
     }
