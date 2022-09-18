@@ -355,7 +355,19 @@ html    {
         width: 400px;
         height: 280px;
         margin: 50px;
-        border-radius: 25px;
+        border-radius: 25px;  
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 1px 10px rgba(247, 84, 24, 0.81);
+    }
+
+    .gallery img:hover 
+    {
+        color: whitesmoke;
+        box-shadow: 0 0 30px orangered;
+        background-color: rgba(247, 84, 24, 0.81);
+        cursor: pointer;
+        scale: 1.5;
     }
 
 .headings 
