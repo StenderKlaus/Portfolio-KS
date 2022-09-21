@@ -115,6 +115,10 @@ html    {
         opacity: 0.9;
     }
 
+#home a {
+border: 1px solid orangered;
+}
+
 .main 
     {
         display: flex;
@@ -227,6 +231,8 @@ html    {
         grid-row: 4 / 5;
         justify-content: center;
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
     }
 
 .ptwo
@@ -234,7 +240,9 @@ html    {
         grid-column: 4 / 5;
         grid-row: 4 / 5;
         justify-content: center;
-        text-align: center;
+        text-align: center;        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
     }
 
 .pthree
@@ -243,6 +251,8 @@ html    {
         grid-row: 5 / 6;
         justify-content: center;
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
     }
 
 .pfour
@@ -251,6 +261,13 @@ html    {
         grid-row: 6 / 7;
         justify-content: center;
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
+    }
+
+.pfour a 
+    {
+        color:rgba(247, 84, 24, 0.81);
     }
 
 .pfive
@@ -259,6 +276,8 @@ html    {
         grid-row: 7 / 8;
         justify-content: center;
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
     }
 
 .psix
@@ -267,6 +286,13 @@ html    {
         grid-row: 8 / 9;
         justify-content: center;
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
+    }
+
+.psix a 
+    {
+        color:rgba(247, 84, 24, 0.81);
     }
 
 .pseven
@@ -275,6 +301,8 @@ html    {
         grid-row: 9 / 10;
         justify-content: center;
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
     }
 
 .peight
@@ -282,15 +310,19 @@ html    {
         grid-column: 4 / 5;
         grid-row: 10 / 11;
         justify-content: center;
-        text-align: center;
+        text-align: center;        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
     }
 
-.ptwo
+.pnine
     {
         grid-column: 4 / 5;
         grid-row: 11 / 12;
         justify-content: center;
         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
     }
 
 #pic 
@@ -302,8 +334,8 @@ html    {
 
 #pic img 
     {
-        width: 350px;
-        height: 500px;
+        width: 400px;
+        height: 600px;
     }
 #intro 
     {
